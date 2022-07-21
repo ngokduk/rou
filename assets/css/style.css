@@ -55,7 +55,7 @@ li {
 
 /* header */
 header {
-    background: #e1e7f0 url(/assets/img/bg/background_hero.png) no-repeat center top /cover;
+    background: #e1e7f0 url(../img/bg/background_hero.png) no-repeat center top /cover;
 
 }
 
@@ -160,7 +160,7 @@ nav {
 /* end hero */
 /* intro */
 #intro {
-    background: #f5fefc url(/assets/img/bg/background_2.png) no-repeat center top /cover;
+    background: #f5fefc url(../img/bg/background_2.png) no-repeat center top /cover;
     /* padding-bottom: 19rem; */
 }
 
@@ -275,7 +275,7 @@ nav {
 
 /* Service */
 #service {
-    background: #fffaf6 url(/assets/img/bg/bg_3.png) no-repeat center top /cover;
+    background: #fffaf6 url(../img/bg/bg_3.png) no-repeat center top /cover;
 }
 
 #service .container .heading {
@@ -342,7 +342,7 @@ nav {
 /* End service */
 /* Projects */
 #projects {
-    background: url(/assets/img/bg/bg_3.png) no-repeat center center /cover;
+    background: url(../img/bg/bg_3.png) no-repeat center center /cover;
 }
 
 .projects-content {
@@ -435,7 +435,7 @@ nav {
 /* End Projects */
 /* team */
 #team {
-    background: #fdfafe url(/assets/img/bg/bg_4.png) no-repeat center center /cover;
+    background: #fdfafe url(../img/bg/bg_4.png) no-repeat center center /cover;
 }
 
 .team-content {
@@ -503,7 +503,7 @@ nav {
 /* End team */
 /* Contact */
 #contact {
-    background: url(/assets/img/bg/contact_bg.png) no-repeat center center /cover;
+    background: url(../img/bg/contact_bg.png) no-repeat center center /cover;
 }
 
 .contact-content {
@@ -531,6 +531,7 @@ nav {
     border: none;
     font-size: 20px;
     padding: 26px 30px;
+    background: #fafafa;
 }
 
 .contact-mess textarea {
@@ -539,6 +540,7 @@ nav {
     font-size: 20px;
     padding: 26px 30px;
     margin-bottom: 3rem;
+    background: #fafafa;
 }
 
 .contact-mess button {
@@ -579,15 +581,15 @@ nav {
 }
 
 .contact-option:nth-child(2) a {
-    background: #fe6686 url(/assets/img/social/phone_number.png) no-repeat center center;
+    background: #fe6686 url(../img/social/phone_number.png) no-repeat center center;
 }
 
 .contact-option:nth-child(3) a {
-    background: #54d6a1 url(/assets/img/social/mail.png) no-repeat center center;
+    background: #54d6a1 url(../img/social/mail.png) no-repeat center center;
 }
 
 .contact-option:nth-child(4) a {
-    background: #fe9a3f url(/assets/img/social/location.png) no-repeat center center;
+    background: #fe9a3f url(../img/social/location.png) no-repeat center center;
 }
 
 .contact-info {
@@ -612,7 +614,7 @@ nav {
 /* End ontacat */
 /* blog */
 #blog {
-    background: url(/assets/img/bg/blog_contact.png) no-repeat center center /cover;
+    background: url(../img/bg/blog_contact.png) no-repeat center center /cover;
 }
 
 .blog-title {
@@ -712,7 +714,7 @@ nav {
 /* End Blog */
 /* Footer */
 footer {
-    background: url(/assets/img/bg/footer.png) no-repeat center center / cover;
+    background: url(../img/bg/footer.png) no-repeat center center / cover;
     padding-top: 17rem;
 }
 
@@ -727,6 +729,7 @@ footer {
     color: var(--text-color);
     line-height: 27px;
 }
+
 .footer-content a {
     display: inline-block;
     margin-bottom: 1rem;
@@ -739,7 +742,8 @@ footer {
 .footer-submit img {
     margin-bottom: 4rem;
 }
-.footer-submit input{
+
+.footer-submit input {
     width: 100%;
     margin-top: 3rem;
     height: 7rem;
@@ -747,19 +751,22 @@ footer {
     font-size: 18px;
     padding: 26px 30px;
     background: #f3f9fb;
-    
+
 }
+
 .footer-submit #submit {
-position: relative;
+    position: relative;
 }
+
 .footer-submit #submit i {
     position: absolute;
-    top: 50%; 
-    right:2.5rem;
+    top: 50%;
+    right: 2.5rem;
     color: var(--text-color);
     transform: translateY(30%);
     z-index: 1;
 }
+
 .footer-content h3 {
     font-size: 24px;
     color: var(--black);
@@ -771,35 +778,42 @@ position: relative;
 .footer-getin {
     max-width: 27rem;
 }
+
 .footer-getin li {
     display: flex;
     color: var(--text-color);
 }
+
 .footer-getin img {
-    filter:opacity(1) drop-shadow(0 0 0 rgb(0, 0, 0));
+    filter: opacity(1) drop-shadow(0 0 0 rgb(0, 0, 0));
     height: 24px;
     width: 24px;
 }
+
 .footer-info {
     margin-top: 17rem;
-    margin-bottom:  6rem;
+    margin-bottom: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
 }
+
 .footer-info .social {
     display: flex;
     justify-content: space-between;
 }
-.footer-info .social > h3{
+
+.footer-info .social>h3 {
     color: #111111;
     font-weight: 600;
     margin-right: 6rem;
 }
+
 .footer-info div:last-child {
     color: var(--text-color);
 }
+
 .footer-info div:last-child strong {
     font-weight: bold;
 }
